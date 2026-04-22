@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-brand-cream text-brand-plum antialiased;
+  background-image: theme('backgroundImage.glow');
+  min-height: 100vh;
+}
+
+.glass-card {
+  @apply rounded-2xl border border-white/40 bg-white/70 shadow-soft backdrop-blur-md;
+}
+
+.grid-fade {
+  background-image: linear-gradient(to right, rgba(76, 59, 77, 0.08) 1px, transparent 1px), linear-gradient(to bottom, rgba(76, 59, 77, 0.08) 1px, transparent 1px);
+  background-size: 32px 32px;
+}

@@ -1,7 +1,15 @@
-export const categories = ['all', 'lights', 'candles', 'posters']
+export const categories = [
+  'all',
+  'Lighting',
+  'Candles',
+  'Wall Art',
+  'Plants',
+  'Furniture',
+  'Textiles',
+]
 
 export const tagGroups = {
-  style: ['minimal', 'cozy', 'aesthetic'],
-  skinType: ['dry', 'oily', 'combination', 'sensitive'],
-  productTags: ['hydrating', 'calming', 'daily-use'],
+  Style: ['boho', 'minimalist', 'mid-century', 'vintage', 'geometric'],
+  Material: ['wood', 'cotton', 'linen', 'ceramic', 'rattan', 'jute', 'velvet'],
+  'Use Case': ['handmade', 'eco', 'low maintenance', 'scented', 'framed'],
 }
